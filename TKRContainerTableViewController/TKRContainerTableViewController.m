@@ -64,6 +64,12 @@
 {
     [super viewWillAppear:animated];
     self.disappearing = NO;
+
+    for (id contained in self.controllers) {
+        if ([contained respondsToSelector:@selector(willAppearWithTableView:)]) {
+            [(id)contained willAppearWithTableView:self.tableView];
+        }
+    }
 }
 
 - (void)viewWillDisappear:(BOOL)animated
@@ -123,6 +129,26 @@
     indexPath = [self tableView:tableView indexPathForContainedControlller:contained withIndexPath:indexPath];
     UITableViewCell *cell = [contained.tableViewDataSource tableView:tableView cellForRowAtIndexPath:indexPath];
     return cell;
+}
+
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+{
+    id<TKRTableViewContained> contained = [self controllerAtIndex:section];
+
+    if ([contained.tableViewDataSource respondsToSelector:@selector(tableView:titleForHeaderInSection:)]) {
+          return [contained.tableViewDataSource tableView:tableView titleForHeaderInSection:0];
+    }
+    return nil;
+}
+
+- (NSString *)tableView:(UITableView *)tableView titleForFooterInSection:(NSInteger)section
+{
+    id<TKRTableViewContained> contained = [self controllerAtIndex:section];
+
+    if ([contained.tableViewDataSource respondsToSelector:@selector(tableView:titleForFooterInSection:)]) {
+          return [contained.tableViewDataSource tableView:tableView titleForFooterInSection:0];
+    }
+    return nil;
 }
 
 //----------------------------------------------------------------------------//

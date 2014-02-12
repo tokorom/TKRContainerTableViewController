@@ -15,6 +15,7 @@
 
 @optional
 
+- (void)willAppearWithTableView:(UITableView *)tableView;
 - (void)setParentViewController:(TKRContainerTableViewController *)parentViewController;
 - (void)loadContentsWithCompletion:(void (^)(void))completion;
 

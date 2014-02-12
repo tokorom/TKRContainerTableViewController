@@ -13,15 +13,23 @@
 		C6BA6FEF18AB586C009AB45A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6BA6FED18AB586C009AB45A /* InfoPlist.strings */; };
 		C6BA6FF118AB586C009AB45A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BA6FF018AB586C009AB45A /* main.m */; };
 		C6BA6FF518AB586C009AB45A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BA6FF418AB586C009AB45A /* AppDelegate.m */; };
-		C6BA6FF818AB586C009AB45A /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6BA6FF618AB586C009AB45A /* Main_iPhone.storyboard */; };
-		C6BA6FFB18AB586C009AB45A /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6BA6FF918AB586C009AB45A /* Main_iPad.storyboard */; };
-		C6BA6FFE18AB586C009AB45A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BA6FFD18AB586C009AB45A /* ViewController.m */; };
 		C6BA700018AB586C009AB45A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6BA6FFF18AB586C009AB45A /* Images.xcassets */; };
 		C6BA700718AB586C009AB45A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6BA700618AB586C009AB45A /* XCTest.framework */; };
 		C6BA700818AB586C009AB45A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6BA6FE418AB586C009AB45A /* Foundation.framework */; };
 		C6BA700918AB586C009AB45A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6BA6FE818AB586C009AB45A /* UIKit.framework */; };
 		C6BA701118AB586C009AB45A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6BA700F18AB586C009AB45A /* InfoPlist.strings */; };
 		C6BA701318AB586C009AB45A /* TKRContainerTableViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BA701218AB586C009AB45A /* TKRContainerTableViewControllerTests.m */; };
+		C6BA702218AB5AB1009AB45A /* TKRContainerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BA701E18AB5AB1009AB45A /* TKRContainerTableViewController.m */; };
+		C6BA702318AB5AB1009AB45A /* TKRContainerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BA701E18AB5AB1009AB45A /* TKRContainerTableViewController.m */; };
+		C6BA702418AB5AB1009AB45A /* TKRDefaultContainedController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BA702018AB5AB1009AB45A /* TKRDefaultContainedController.m */; };
+		C6BA702518AB5AB1009AB45A /* TKRDefaultContainedController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BA702018AB5AB1009AB45A /* TKRDefaultContainedController.m */; };
+		C6BA702A18AB5B28009AB45A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BA702918AB5B28009AB45A /* ViewController.m */; };
+		C6BA702B18AB5B28009AB45A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BA702918AB5B28009AB45A /* ViewController.m */; };
+		C6BA703018AB68F2009AB45A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6BA702F18AB68F2009AB45A /* Main.storyboard */; };
+		C6BA703218AB690C009AB45A /* PickupCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6BA703118AB690C009AB45A /* PickupCell.xib */; };
+		C6BA703518AB6DDB009AB45A /* PickupController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BA703418AB6DDB009AB45A /* PickupController.m */; };
+		C6BA703718AB751E009AB45A /* ListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6BA703618AB751E009AB45A /* ListCell.xib */; };
+		C6BA703A18AB7584009AB45A /* ListController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BA703918AB7584009AB45A /* ListController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,16 +53,26 @@
 		C6BA6FF218AB586C009AB45A /* Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Demo-Prefix.pch"; sourceTree = "<group>"; };
 		C6BA6FF318AB586C009AB45A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C6BA6FF418AB586C009AB45A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C6BA6FF718AB586C009AB45A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		C6BA6FFA18AB586C009AB45A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		C6BA6FFC18AB586C009AB45A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C6BA6FFD18AB586C009AB45A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C6BA6FFF18AB586C009AB45A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C6BA700518AB586C009AB45A /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6BA700618AB586C009AB45A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C6BA700E18AB586C009AB45A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		C6BA701018AB586C009AB45A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C6BA701218AB586C009AB45A /* TKRContainerTableViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKRContainerTableViewControllerTests.m; sourceTree = "<group>"; };
+		C6BA701D18AB5AB1009AB45A /* TKRContainerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKRContainerTableViewController.h; sourceTree = "<group>"; };
+		C6BA701E18AB5AB1009AB45A /* TKRContainerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKRContainerTableViewController.m; sourceTree = "<group>"; };
+		C6BA701F18AB5AB1009AB45A /* TKRDefaultContainedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKRDefaultContainedController.h; sourceTree = "<group>"; };
+		C6BA702018AB5AB1009AB45A /* TKRDefaultContainedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKRDefaultContainedController.m; sourceTree = "<group>"; };
+		C6BA702118AB5AB1009AB45A /* TKRTableViewContained.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKRTableViewContained.h; sourceTree = "<group>"; };
+		C6BA702818AB5B28009AB45A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C6BA702918AB5B28009AB45A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C6BA702F18AB68F2009AB45A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C6BA703118AB690C009AB45A /* PickupCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PickupCell.xib; sourceTree = "<group>"; };
+		C6BA703318AB6DDB009AB45A /* PickupController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickupController.h; sourceTree = "<group>"; };
+		C6BA703418AB6DDB009AB45A /* PickupController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickupController.m; sourceTree = "<group>"; };
+		C6BA703618AB751E009AB45A /* ListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListCell.xib; sourceTree = "<group>"; };
+		C6BA703818AB7584009AB45A /* ListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListController.h; sourceTree = "<group>"; };
+		C6BA703918AB7584009AB45A /* ListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +102,7 @@
 		C6BA6FD818AB586C009AB45A = {
 			isa = PBXGroup;
 			children = (
+				C6BA701C18AB5AB1009AB45A /* TKRContainerTableViewController */,
 				C6BA6FEA18AB586C009AB45A /* Demo */,
 				C6BA700C18AB586C009AB45A /* Tests */,
 				C6BA6FE318AB586C009AB45A /* Frameworks */,
@@ -114,12 +133,10 @@
 		C6BA6FEA18AB586C009AB45A /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				C6BA702C18AB682A009AB45A /* Resources */,
+				C6BA702618AB5B28009AB45A /* Classes */,
 				C6BA6FF318AB586C009AB45A /* AppDelegate.h */,
 				C6BA6FF418AB586C009AB45A /* AppDelegate.m */,
-				C6BA6FF618AB586C009AB45A /* Main_iPhone.storyboard */,
-				C6BA6FF918AB586C009AB45A /* Main_iPad.storyboard */,
-				C6BA6FFC18AB586C009AB45A /* ViewController.h */,
-				C6BA6FFD18AB586C009AB45A /* ViewController.m */,
 				C6BA6FFF18AB586C009AB45A /* Images.xcassets */,
 				C6BA6FEB18AB586C009AB45A /* Supporting Files */,
 			);
@@ -153,6 +170,65 @@
 				C6BA700F18AB586C009AB45A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C6BA701C18AB5AB1009AB45A /* TKRContainerTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C6BA701D18AB5AB1009AB45A /* TKRContainerTableViewController.h */,
+				C6BA701E18AB5AB1009AB45A /* TKRContainerTableViewController.m */,
+				C6BA701F18AB5AB1009AB45A /* TKRDefaultContainedController.h */,
+				C6BA702018AB5AB1009AB45A /* TKRDefaultContainedController.m */,
+				C6BA702118AB5AB1009AB45A /* TKRTableViewContained.h */,
+			);
+			path = TKRContainerTableViewController;
+			sourceTree = "<group>";
+		};
+		C6BA702618AB5B28009AB45A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C6BA702718AB5B28009AB45A /* Controllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C6BA702718AB5B28009AB45A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C6BA703818AB7584009AB45A /* ListController.h */,
+				C6BA703918AB7584009AB45A /* ListController.m */,
+				C6BA703318AB6DDB009AB45A /* PickupController.h */,
+				C6BA703418AB6DDB009AB45A /* PickupController.m */,
+				C6BA702818AB5B28009AB45A /* ViewController.h */,
+				C6BA702918AB5B28009AB45A /* ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C6BA702C18AB682A009AB45A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C6BA702E18AB68C4009AB45A /* storyboards */,
+				C6BA702D18AB682A009AB45A /* xib */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C6BA702D18AB682A009AB45A /* xib */ = {
+			isa = PBXGroup;
+			children = (
+				C6BA703118AB690C009AB45A /* PickupCell.xib */,
+				C6BA703618AB751E009AB45A /* ListCell.xib */,
+			);
+			path = xib;
+			sourceTree = "<group>";
+		};
+		C6BA702E18AB68C4009AB45A /* storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C6BA702F18AB68F2009AB45A /* Main.storyboard */,
+			);
+			path = storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,10 +307,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6BA6FFB18AB586C009AB45A /* Main_iPad.storyboard in Resources */,
+				C6BA703018AB68F2009AB45A /* Main.storyboard in Resources */,
 				C6BA700018AB586C009AB45A /* Images.xcassets in Resources */,
-				C6BA6FF818AB586C009AB45A /* Main_iPhone.storyboard in Resources */,
 				C6BA6FEF18AB586C009AB45A /* InfoPlist.strings in Resources */,
+				C6BA703218AB690C009AB45A /* PickupCell.xib in Resources */,
+				C6BA703718AB751E009AB45A /* ListCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,9 +330,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6BA6FFE18AB586C009AB45A /* ViewController.m in Sources */,
+				C6BA703A18AB7584009AB45A /* ListController.m in Sources */,
+				C6BA702218AB5AB1009AB45A /* TKRContainerTableViewController.m in Sources */,
+				C6BA703518AB6DDB009AB45A /* PickupController.m in Sources */,
+				C6BA702418AB5AB1009AB45A /* TKRDefaultContainedController.m in Sources */,
 				C6BA6FF518AB586C009AB45A /* AppDelegate.m in Sources */,
 				C6BA6FF118AB586C009AB45A /* main.m in Sources */,
+				C6BA702A18AB5B28009AB45A /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +344,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6BA702518AB5AB1009AB45A /* TKRDefaultContainedController.m in Sources */,
 				C6BA701318AB586C009AB45A /* TKRContainerTableViewControllerTests.m in Sources */,
+				C6BA702B18AB5B28009AB45A /* ViewController.m in Sources */,
+				C6BA702318AB5AB1009AB45A /* TKRContainerTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,22 +368,6 @@
 				C6BA6FEE18AB586C009AB45A /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		C6BA6FF618AB586C009AB45A /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C6BA6FF718AB586C009AB45A /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		C6BA6FF918AB586C009AB45A /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C6BA6FFA18AB586C009AB45A /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		C6BA700F18AB586C009AB45A /* InfoPlist.strings */ = {
