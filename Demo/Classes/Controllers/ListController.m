@@ -32,7 +32,7 @@ static NSString * const kCellIdentifier = @"ListCell";
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:kCellIdentifier];
-    cell.textLabel.text = [NSString stringWithFormat:@"list %d", indexPath.row];
+    cell.textLabel.text = [NSString stringWithFormat:@"list %lu", indexPath.row];
     cell.imageView.image = [UIImage imageNamed:@"Dog"];
     return cell;
 }
