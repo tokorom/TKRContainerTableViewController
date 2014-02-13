@@ -6,7 +6,7 @@
 
 @class TKRContainerTableViewController;
 
-@protocol TKRTableViewContained
+@protocol TKRTableViewContained<NSObject>
 
 @required
 

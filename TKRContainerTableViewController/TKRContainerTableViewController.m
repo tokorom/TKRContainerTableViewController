@@ -67,7 +67,7 @@
 
     for (id contained in self.controllers) {
         if ([contained respondsToSelector:@selector(willAppearWithTableView:)]) {
-            [(id)contained willAppearWithTableView:self.tableView];
+            [contained willAppearWithTableView:self.tableView];
         }
     }
 }
@@ -84,7 +84,7 @@
 
 - (void)addController:(id<TKRTableViewContained>)controller
 {
-    if ([(id)controller respondsToSelector:@selector(setParentViewController:)]) {
+    if ([controller respondsToSelector:@selector(setParentViewController:)]) {
         [controller setParentViewController:self];
     }
     [(NSMutableArray *)self.controllers addObject:controller];
@@ -187,7 +187,7 @@
 {
     id<TKRTableViewContained> contained = [self controllerAtIndex:section];
 
-    if ([(id)contained respondsToSelector:@selector(loadContentsWithCompletion:)]) {
+    if ([contained respondsToSelector:@selector(loadContentsWithCompletion:)]) {
         [contained loadContentsWithCompletion:^{
             if (NO == self.isDisappearing) {
                 [tableView reloadData];
@@ -212,7 +212,7 @@
 
     BOOL heightIsNotAssign = (0.0 == height);
     if (heightIsNotAssign) {
-        if ([(id)contained respondsToSelector:@selector(loadContentsWithCompletion:)]) {
+        if ([contained respondsToSelector:@selector(loadContentsWithCompletion:)]) {
             [contained loadContentsWithCompletion:^{
                 NSIndexSet *indexSet = [NSIndexSet indexSetWithIndex:section];
                 if (NO == self.isDisappearing) {
